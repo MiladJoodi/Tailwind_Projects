@@ -1,4 +1,7 @@
-# React + Vite
+# React + Vite + Tailwind CSS
+
+### Cover:
+![](https://s30.picofile.com/file/8470587826/digikala.gif)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
