@@ -45,13 +45,13 @@ function Nav() {
                         <span >
                             <FiUserPlus size={19} />
                         </span>
-                        <span className='mx-4 font-normal text-lg'>لاگین</span>
+                        <span className='mx-4 font-normal text-lg'>عضویت </span>
                     </a>
                 </div>
                 {/* /sidebar items end */}
             </nav>
             <div className='absolute bottom-0 my-10'>
-                <a href="#" className='text-gray-500 hover:text-gray-800 transition-colors duration-200 flex items-center py-2 px-8'>
+                <a href="https://github.com/MiladJoodi/Tailwind_Projects/tree/main/02.Dashboard-AP" className='text-gray-500 hover:text-gray-800 transition-colors duration-200 flex items-center py-2 px-8'>
                     <BsPatchCheck className='text-blue-600' />
                 <span className='mx-4'>نسخه 2</span>
                 </a>
