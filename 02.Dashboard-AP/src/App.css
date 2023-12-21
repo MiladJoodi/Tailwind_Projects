@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'bakh';
+    src: url('../public/fonts/bakh_Medium.woff') format('eot');
+    src: url('../public/fonts/bakh_Medium.woff') format('truetype'),
+        url('../public/fonts/bakh_Medium.woff') format('woff');
+}
+
+* {}
+
+body {
+    direction: rtl;
+    font-family: 'bakh';
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    background-color:rgb(240, 240, 240);
+}
