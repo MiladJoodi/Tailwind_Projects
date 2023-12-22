@@ -5,7 +5,7 @@ import { CiSearch } from "react-icons/ci";
 function Header() {
   return (
 
-      <header className="m-5  shadow-lg bg-white items-center h-16 rounded-2xl z-40">
+      <header className="mt-5 ml-5 shadow-lg bg-white items-center h-16 rounded-2xl z-40">
         <div className="relative z-20 flex flex-column  justify-center h-full px-3 mx-auto">
           <div className="relative items-center pl-1 flex w-full lg:max-w-68 sm:pr-2 sm:ml-0">
             <div className="container relative left-0 z-50 flex w-full">

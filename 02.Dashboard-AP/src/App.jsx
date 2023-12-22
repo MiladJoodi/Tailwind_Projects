@@ -12,7 +12,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="wrapper home-section flex w-full ">
+    <div className="wrapper home-section flex gap-5 w-full ">
       <Router>
         <Nav />
         <Routes>
