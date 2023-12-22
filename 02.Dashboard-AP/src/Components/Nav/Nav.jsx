@@ -9,7 +9,7 @@ import { BsPatchCheck } from "react-icons/bs";
 
 function Nav() {
   return (
-    <div className='h-screen hidden lg:block my-4 mr-4 shadow-lg relative w-80'>
+    <div className='navbar h-screen hidden lg:block my-4 mr-4 shadow-lg relative w-80'>
         <div className='bg-white h-full rounded-2xl'>
             <div className='flex items-center justify-center pt-6'>
                 <img src="./images/joodi.jpg" className='w-14 rounded-full' />
