@@ -5,7 +5,7 @@ import { HiOutlineUsers, HiListBullet } from "react-icons/hi2";
 import { TbLogin } from "react-icons/tb";
 import { FiUserPlus } from "react-icons/fi";
 import { BsPatchCheck } from "react-icons/bs";
-import {Link} from 'react-router-dom'
+import {Link, NavLink} from 'react-router-dom'
 
 function Nav() {
   return (
@@ -16,41 +16,41 @@ function Nav() {
             </div>
             <nav className='pt-6'>
                 {/* sidebar items start */}
-                <div>
+                <div className='navlinks'>
                     {/* dashboard */}
-                    <Link to="/" className='w-full font-thin text-blue-500 flex items-center p-4 my-2 transition-colors duration-200  bg-gradient-to-l from-white to-blue-100 border-l-4 border-blue-500'>
+                    <NavLink to="/" className='w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200'>
                     <span className='text-left'>
                             <AiFillCaretLeft />
                         </span>
                         <span className='mx-4 font-normal text-lg'>داشبورد</span>
-                    </Link>
+                    </NavLink>
                     {/* /dashboard */}
                     {/* users link */}
-                    <Link to="/users" className='w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500'>
+                    <NavLink to="/users" className='w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500'>
                     <span >
                             <HiOutlineUsers size={17} />
                         </span>
                         <span className='mx-4 font-normal text-lg'>کاربران</span>
-                    </Link>
+                    </NavLink>
                     {/* /users link */}
-                    <Link to='forms' className='w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500'>
+                    <NavLink to='forms' className='w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500'>
                         <span >
                             <HiListBullet size={20} />
                         </span>
                         <span className='mx-4 font-normal text-lg'>فرم ها</span>
-                    </Link>
-                    <Link to="login" className='w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500'>
+                    </NavLink>
+                    <NavLink to="login" className='w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500'>
                         <span >
                             <TbLogin size={20} />
                         </span>
                         <span className='mx-4 font-normal text-lg'>لاگین</span>
-                    </Link>
-                    <Link to="register" className='w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500'>
+                    </NavLink>
+                    <NavLink to="register" className='w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500'>
                         <span >
                             <FiUserPlus size={19} />
                         </span>
                         <span className='mx-4 font-normal text-lg'>عضویت </span>
-                    </Link>
+                    </NavLink>
                 </div>
                 {/* /sidebar items end */}
             </nav>

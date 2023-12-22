@@ -1,8 +1,12 @@
 import React from 'react'
+import Header from '../../Components/Header/Header'
 
 function Register() {
   return (
-    <div>Register</div>
+    <div className='content w-full'>
+    <Header />
+    Register
+  </div>
   )
 }
 

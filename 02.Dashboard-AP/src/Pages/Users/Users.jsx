@@ -1,9 +1,13 @@
 import React from 'react'
 import './Users.css'
+import Header from '../../Components/Header/Header'
 
 function Users() {
   return (
-    <div>Users</div>
+    <div className='content w-full'>
+      <Header />
+      Users
+    </div>
   )
 }
 

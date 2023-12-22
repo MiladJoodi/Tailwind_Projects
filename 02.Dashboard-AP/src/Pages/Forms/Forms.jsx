@@ -1,8 +1,12 @@
 import React from 'react'
+import Header from '../../Components/Header/Header'
 
 function Forms() {
   return (
-    <div>Forms</div>
+    <div className='content w-full'>
+    <Header />
+    Forms
+  </div>
   )
 }
 
