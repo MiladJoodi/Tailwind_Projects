@@ -5,11 +5,11 @@ import { HiOutlineUsers, HiListBullet } from "react-icons/hi2";
 import { TbLogin } from "react-icons/tb";
 import { FiUserPlus } from "react-icons/fi";
 import { BsPatchCheck } from "react-icons/bs";
-
+import {Link} from 'react-router-dom'
 
 function Nav() {
   return (
-    <div className='navbar h-screen hidden lg:block my-4 mr-4 shadow-lg relative w-80'>
+    <div className=' navbar h-screen hidden lg:block my-4 mr-4 shadow-lg relative w-80'>
         <div className='bg-white h-full rounded-2xl'>
             <div className='flex items-center justify-center pt-6'>
                 <img src="./images/joodi.jpg" className='w-14 rounded-full' />
@@ -17,36 +17,40 @@ function Nav() {
             <nav className='pt-6'>
                 {/* sidebar items start */}
                 <div>
-                    <a href="#" className='w-full font-thin text-blue-500 flex items-center p-4 my-2 transition-colors duration-200  bg-gradient-to-l from-white to-blue-100 border-l-4 border-blue-500'>
-                        <span className='text-left'>
+                    {/* dashboard */}
+                    <Link to="/" className='w-full font-thin text-blue-500 flex items-center p-4 my-2 transition-colors duration-200  bg-gradient-to-l from-white to-blue-100 border-l-4 border-blue-500'>
+                    <span className='text-left'>
                             <AiFillCaretLeft />
                         </span>
                         <span className='mx-4 font-normal text-lg'>داشبورد</span>
-                    </a>
-                    <a href="#" className='w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500'>
-                        <span >
+                    </Link>
+                    {/* /dashboard */}
+                    {/* users link */}
+                    <Link to="/users" className='w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500'>
+                    <span >
                             <HiOutlineUsers size={17} />
                         </span>
                         <span className='mx-4 font-normal text-lg'>کاربران</span>
-                    </a>
-                    <a href="#" className='w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500'>
+                    </Link>
+                    {/* /users link */}
+                    <Link to='forms' className='w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500'>
                         <span >
                             <HiListBullet size={20} />
                         </span>
                         <span className='mx-4 font-normal text-lg'>فرم ها</span>
-                    </a>
-                    <a href="#" className='w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500'>
+                    </Link>
+                    <Link to="login" className='w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500'>
                         <span >
                             <TbLogin size={20} />
                         </span>
                         <span className='mx-4 font-normal text-lg'>لاگین</span>
-                    </a>
-                    <a href="#" className='w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500'>
+                    </Link>
+                    <Link to="register" className='w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500'>
                         <span >
                             <FiUserPlus size={19} />
                         </span>
                         <span className='mx-4 font-normal text-lg'>عضویت </span>
-                    </a>
+                    </Link>
                 </div>
                 {/* /sidebar items end */}
             </nav>
