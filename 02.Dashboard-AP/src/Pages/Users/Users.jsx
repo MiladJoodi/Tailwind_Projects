@@ -6,6 +6,7 @@ import { CiTrash } from "react-icons/ci";
 import { IoBanOutline } from "react-icons/io5";
 import { ToastContainer, toast } from 'react-toastify';
 import { IoCheckmarkCircleOutline } from "react-icons/io5";
+import Pagination from '../../Components/Pagination';
 
 function Users() {
 
@@ -135,6 +136,10 @@ function Users() {
                         </tbody>
                   </table>
                   {/* /users table */}
+
+                  {/* Pagination */}
+                    <Pagination />
+                  {/* /Pagination */}
                 </div>
               </div>
             </div>
