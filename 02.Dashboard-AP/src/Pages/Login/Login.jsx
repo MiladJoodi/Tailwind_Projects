@@ -20,7 +20,7 @@ function Login() {
                 <span className='rounded-r-md inline-flex items-center px-3 border-t border-r border-b border-gray-300 text-gray-300 shadow-sm text-sm'>
                   <MdEmail />
                 </span>
-                <input type="email" className='rounded-l-lg flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-300' />
+                <input type="email" className='rounded-l-lg flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' />
               </div>
             </div>
         </form>
