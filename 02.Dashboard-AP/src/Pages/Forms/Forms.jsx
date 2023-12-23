@@ -5,13 +5,13 @@ function Forms() {
   return (
     <div className="content w-full">
       <Header />
-      <div className="forms flex flex-col flex-wrap sm:flex-row">
+      <div className="forms flex flex-col flex-wrap sm:flex-row w-full">
         <div className="container mx-auto p-4 sm:px-8 max-w-8xl">
           <div className="py-8">
-            <div className="flex flex-row mb-1 sm:mb:0 justify-between w-full">
+            <div className="flex flex-col mb-1 sm:mb:0 justify-between w-full">
               <h2 className="text-2xl leading-tight">فرم ها</h2>
 
-              <div className="bg-white rounded-lg shadow sm:max-w-md sm:shadow-full sm:mx-auto sm:overflow-hidden">
+              <div className="bg-white w-full rounded-lg shadow sm:max-w-md sm:shadow-full sm:mx-auto sm:overflow-hidden">
                 <div className="px-4 py-8 sm:px-10">
                   <div className="relative mt-6 ">
                     <div className="absolute inset-0 flex items-center">
@@ -53,7 +53,7 @@ function Forms() {
             {/* buttons */}
                         <div className="">
                             <span className="block w-full rounded-md shadow-sm">
-                              <button type="submit" className="py-2 px-4 bg-indigo-400 focus:ring-indigo-500 focus:ring-offset-indigo-500 text-white w-full transition ease-out duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg">ثبت</button>
+                              <button type="submit" className="py-2 px-4 bg-indigo-400 hover:bg-indigo-500 focus:ring-indigo-500 focus:ring-offset-indigo-500 text-white w-full transition ease-out duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg">ثبت</button>
                             </span>
                         </div>
             {/* buttons */}
