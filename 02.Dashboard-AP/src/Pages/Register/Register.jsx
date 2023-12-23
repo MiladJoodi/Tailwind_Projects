@@ -14,7 +14,7 @@ function Register() {
               <h2 className="text-2xl leading-tight">ورود و اعتبار سنجی</h2>
               <div className='flex flex-col w-full mx-auto  max-w-md px-4 py-8 bg-white rounded-lg shadow dark:bg-gray-800 sm:px-6 md:px-8 lg:px-10'>
       <div className='self-center mb-6 text-xl font-light text-gray-600 sm:text-2xl dark:text-white'>
-        ورود به پنل کاربری
+        ثبت نام در پنل کاربری
       </div>
 
           {/* form group username */}
@@ -47,7 +47,7 @@ function Register() {
             </div>
             <div className='flex w-full'>
               <button type='submit' className='py-2 px-4 bg-purple-600 hover:bg-purple-700 focus:ring-purple-500 focus:ring-offset-purple-200 w-full transition ease-in duration-200 text-white text-base font-semibold shadow-md focus:outline-none focus-ring-2 focus:ring-offset-2 rounded-lg'>
-                ورود
+                ثبت نام
               </button>
             </div>
         </form>
@@ -55,7 +55,7 @@ function Register() {
           {/* /form group username */}
 
           <div className='flex items-center justify-center mt-4'>
-              <Link to="/register" className='inline-flex items-center text-xs font-thin text-center text-gray-500 hover:text-gray-700 dark:text-gray-100 dark:hover:text-white'>ثبت نام</Link>
+              <Link to="/register" className='inline-flex items-center text-xs font-thin text-center text-gray-500 hover:text-gray-700 dark:text-gray-100 dark:hover:text-white'>ورود</Link>
             </div>
 
     </div>
