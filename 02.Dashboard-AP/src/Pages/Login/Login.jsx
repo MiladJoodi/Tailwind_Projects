@@ -17,7 +17,8 @@ function Login() {
         ورود به پنل کاربری
       </div>
 
-      <div className='mt-8'>
+          {/* form group username */}
+          <div className='mt-8'>
         <form className='' autoComplete='off'>
             <div className='flex flex-col هفثئ mb-2'>
               <div className='flex relative'>
@@ -30,6 +31,24 @@ function Login() {
             </div>
         </form>
       </div>
+          {/* /form group username */}
+
+                    {/* form group password */}
+                    <div className='mt-8'>
+        <form className='' autoComplete='off'>
+            <div className='flex flex-col هفثئ mb-2'>
+              <div className='flex relative'>
+                <span className='rounded-r-md inline-flex items-center px-3 border-t border-r border-b border-gray-400 text-gray-400 shadow-sm text-sm'>
+                  <MdEmail />
+                </span>
+                <input type="email" placeholder='ایمیل شما'
+                className='rounded-l-lg flex-1 appearance-none border border-gray-400 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' />
+              </div>
+            </div>
+        </form>
+      </div>
+          {/* /form group password */}
+
 
     </div>
     </div>
