@@ -3,6 +3,7 @@ import Header from '../../Components/Header/Header'
 import { MdEmail } from "react-icons/md";
 import { FaLock } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
+import { FaPhone } from "react-icons/fa";
 
 function Register() {
   return (
@@ -20,6 +21,7 @@ function Register() {
           {/* form group */}
           <div className='mt-8'>
         <form autoComplete='off'>
+          {/* username */}
             <div className='flex flex-col mb-2'>
               <div className='flex relative'>
                 <span className='rounded-r-md inline-flex items-center px-3 border-t border-r border-b border-gray-400 text-gray-400 shadow-sm text-sm'>
@@ -29,6 +31,19 @@ function Register() {
                 className='rounded-l-lg flex-1 appearance-none border border-gray-400 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' />
               </div>
             </div>
+          {/* /username */}
+          {/* phone */}
+            <div className='flex flex-col mb-2'>
+              <div className='flex relative'>
+                <span className='rounded-r-md inline-flex items-center px-3 border-t border-r border-b border-gray-400 text-gray-400 shadow-sm text-sm'>
+                  <FaPhone />
+                </span>
+                <input type="email" placeholder='شماره'
+                className='rounded-l-lg flex-1 appearance-none border border-gray-400 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' />
+              </div>
+            </div>
+          {/* /phone */}
+          {/* password */}
             <div className='flex flex-col mb-2'>
               <div className='flex relative'>
                 <span className='rounded-r-md inline-flex items-center px-3 border-t border-r border-b border-gray-400 text-gray-400 shadow-sm text-sm'>
@@ -38,6 +53,8 @@ function Register() {
                 className='rounded-l-lg flex-1 appearance-none border border-gray-400 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' />
               </div>
             </div>
+          {/* /password */}
+          {/* confirm password */}
             <div className='flex flex-col mb-6'>
               <div className='flex relative'>
                 <span className='rounded-r-md inline-flex items-center px-3 border-t border-r border-b border-gray-400 text-gray-400 shadow-sm text-sm'>
@@ -47,6 +64,7 @@ function Register() {
                 className='rounded-l-lg flex-1 appearance-none border border-gray-400 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' />
               </div>
             </div>
+            {/* confirm password */}
             <div className='flex items-center mb-6 mt-4'>
               <div className='flex mr-auto'>
                   <a href="#" className='inline-flex text-xs font-thin text-gray-500 sm:text-sm dark:text-gray-100 hover:text-gray-700 dark:hover:text-white'>
