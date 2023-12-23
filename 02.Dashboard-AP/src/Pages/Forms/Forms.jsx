@@ -13,7 +13,7 @@ function Forms() {
 
               <div className="bg-white w-full rounded-lg shadow sm:max-w-md sm:shadow-full sm:mx-auto sm:overflow-hidden">
                 <div className="px-4 py-8 sm:px-10">
-                  <div className="relative mt-6 ">
+                  <div className="relative ">
                     <div className="absolute inset-0 flex items-center">
                       <div className="w-full border-t border-gray-300"></div>
                     </div>
