@@ -43,7 +43,7 @@ function Nav() {
                         <span >
                             <TbLogin size={20} />
                         </span>
-                        <span className='mx-4 font-normal text-lg'>لاگین</span>
+                        <span className='mx-4 font-normal text-lg'>ورود</span>
                     </NavLink>
                     <NavLink to="register" className='w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500'>
                         <span >

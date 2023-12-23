@@ -17,7 +17,7 @@ function Register() {
         ثبت نام در پنل کاربری
       </div>
 
-          {/* form group username */}
+          {/* form group */}
           <div className='mt-8'>
         <form autoComplete='off'>
             <div className='flex flex-col mb-2'>
@@ -25,7 +25,16 @@ function Register() {
                 <span className='rounded-r-md inline-flex items-center px-3 border-t border-r border-b border-gray-400 text-gray-400 shadow-sm text-sm'>
                   <MdEmail />
                 </span>
-                <input type="email" placeholder='ایمیل شما'
+                <input type="email" placeholder='ایمیل'
+                className='rounded-l-lg flex-1 appearance-none border border-gray-400 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' />
+              </div>
+            </div>
+            <div className='flex flex-col mb-2'>
+              <div className='flex relative'>
+                <span className='rounded-r-md inline-flex items-center px-3 border-t border-r border-b border-gray-400 text-gray-400 shadow-sm text-sm'>
+                  <FaLock />
+                </span>
+                <input type="email" placeholder='رمز عبور'
                 className='rounded-l-lg flex-1 appearance-none border border-gray-400 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' />
               </div>
             </div>
@@ -34,7 +43,7 @@ function Register() {
                 <span className='rounded-r-md inline-flex items-center px-3 border-t border-r border-b border-gray-400 text-gray-400 shadow-sm text-sm'>
                   <FaLock />
                 </span>
-                <input type="email" placeholder='رمز عبور شما'
+                <input type="email" placeholder='تایید عبور'
                 className='rounded-l-lg flex-1 appearance-none border border-gray-400 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent' />
               </div>
             </div>
@@ -52,10 +61,10 @@ function Register() {
             </div>
         </form>
       </div>
-          {/* /form group username */}
+          {/* /form group  */}
 
           <div className='flex items-center justify-center mt-4'>
-              <Link to="/register" className='inline-flex items-center text-xs font-thin text-center text-gray-500 hover:text-gray-700 dark:text-gray-100 dark:hover:text-white'>ورود</Link>
+              <Link to="/login" className='inline-flex items-center text-xs font-thin text-center text-gray-500 hover:text-gray-700 dark:text-gray-100 dark:hover:text-white'>ورود</Link>
             </div>
 
     </div>
